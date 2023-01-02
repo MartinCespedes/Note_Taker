@@ -1,4 +1,4 @@
-## :pencil:Note_Taker
+## :pencil:Note Taker
 
 - This application will use an Express.js back end and will save and retrieve note data from a JSON file.
 
@@ -25,5 +25,9 @@
 - THEN that note appears in the right-hand column
 - WHEN I click on the Write icon in the navigation at the top of the page
 - THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+
+## Application ScreenShot
+
+![Note_Taker_Express](./Develop/images/Note_Taker_Image.png)
 
 
