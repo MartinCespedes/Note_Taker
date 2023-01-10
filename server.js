@@ -21,13 +21,14 @@ app.use(express.static("public"));
 const parsedNotes = Json.parse(Notes);
 console.info("parsed notes", parsedNotes);
 
-// route for notes
+// routes for notes //
 app.get("/notes", (req, res) => {
   res.sendFile(path.join(__dirname, "public/notes.html"));
 });
 
-app.use(apiRoutes);
-app.use(htmlRoutes);
+// Api Routes //
+app.use("/api", apiRoutes);
+app.use("/", htmlRoutes);
 
 app.listen(PORT, () => {
   console.log(`API server now on port ${PORT}!`);
