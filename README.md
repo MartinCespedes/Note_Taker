@@ -2,7 +2,7 @@
 
 [Deployed Application]("/")
 
-![License](https://img.shields.io/badge/LicenseMITyellow.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Contents
 
