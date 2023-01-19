@@ -6,3 +6,5 @@ app.get("notes/:id", (req, res) => {
 });
 
 app.get("api", (req, res) => res.json(notes));
+
+module.exports = router;
